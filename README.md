@@ -2,8 +2,6 @@
 
 A beautiful, modern Christmas-themed Shopify Hydrogen storefront built with React Router v7, TypeScript, and Tailwind CSS. This project showcases a festive holiday shopping experience with clean component architecture and responsive design.
 
-![Christmas Theme Demo](https://via.placeholder.com/800x400/1f683e/ffffff?text=Christmas+Magic+Store+Demo)
-
 ## ✨ Features
 
 - **🎁 Festive Christmas Design** - Beautiful holiday-themed UI with warm colors and festive typography
