@@ -1,0 +1,99 @@
+{
+	"cache": {
+		"most-recent-occurrence-warn-on-available-upgrade": {
+			"value": true,
+			"timestamp": 1761574714132
+		},
+		"npm-package-@shopify/cli": {
+			"value": "3.86.1",
+			"timestamp": 1761576473901
+		},
+		"rate-limited-occurrences-report-analytics-event": {
+			"value": [
+				1761574780992,
+				1761575041665,
+				1761575042241,
+				1761575073460,
+				1761575073921,
+				1761575115707,
+				1761575116073,
+				1761575177443,
+				1761575177855,
+				1761575255406,
+				1761575255830,
+				1761575346126,
+				1761575346591,
+				1761575420761,
+				1761575421298,
+				1761575561332,
+				1761575561769,
+				1761575699503,
+				1761575699997,
+				1761575757149,
+				1761575757615,
+				1761576043381,
+				1761576043625,
+				1761576045291,
+				1761576517975,
+				1761576548019,
+				1761576548342,
+				1761576550008,
+				1761576587855,
+				1761576588139,
+				1761576589834,
+				1761576612297,
+				1761576612605,
+				1761576614271,
+				1761576646381,
+				1761576646699,
+				1761576648375,
+				1761576685294,
+				1761576685605,
+				1761576687288,
+				1761578226611,
+				1761578233960,
+				1761578234271,
+				1761578235984,
+				1761578260401,
+				1761578260707,
+				1761578262429,
+				1761578433416,
+				1761578434333,
+				1761578470009,
+				1761578470274,
+				1761578471941,
+				1761581323509,
+				1761581323864,
+				1761581325569,
+				1761581366491,
+				1761581366773,
+				1761581368428,
+				1761581522468,
+				1761581522716,
+				1761581524422,
+				1761581644575,
+				1761581644897,
+				1761581646599,
+				1761581742657,
+				1761581742888,
+				1761581778354,
+				1761581778629,
+				1761581780330,
+				1761585459085,
+				1761585459444,
+				1761585461142
+			],
+			"timestamp": 1761585461142
+		},
+		"notifications-https://cdn.shopify.com/static/cli/notifications.json": {
+			"value": "{\n  \"notifications\": [\n      {\n          \"id\": \"acfcd504-4046-4f4c-9bee-74f6ba3e25a3\",\n          \"message\": \"Release highlights:\\n\\n  - Improve support for terminal links\\n  - [theme] Fix some issues with password validation for `theme dev`\\n  - [theme] Add `--strict` flag to `theme push`\\n  - Other bug fixes and improvements\",\n          \"type\": \"info\",\n          \"frequency\": \"once\",\n          \"ownerChannel\": \"develop-team-app-inner-loop\",\n          \"cta\": {\n              \"label\": \"Read the complete release notes\",\n              \"url\": \"https://github.com/Shopify/cli/releases/tag/3.71.0\"\n          },\n          \"title\": \"Release notes for 3.71.0\",\n          \"minVersion\": \"3.71.0\",\n          \"maxVersion\": \"3.71.0\"\n      },\n      {\n          \"id\": \"35d119f6-f77a-4f84-9b73-c0d501660e7c\",\n          \"message\": \"Release highlights:\\n\\n  - [app] Fix an issue with functions in `dev`\\n  - [theme] Allow empty theme files to be uploaded\\n  - [theme] Add support for block liquid files in theme partitioning\",\n          \"type\": \"info\",\n          \"frequency\": \"once\",\n          \"ownerChannel\": \"develop-team-app-inner-loop\",\n          \"cta\": {\n              \"label\": \"Read the complete release notes\",\n              \"url\": \"https://github.com/Shopify/cli/releases/tag/3.72.0\"\n          },\n          \"title\": \"Release notes for 3.72.0\",\n          \"minVersion\": \"3.72.0\",\n          \"maxVersion\": \"3.72.0\"\n      },\n      {\n          \"id\": \"46fb55c3-8278-4a07-89bb-1abc2415010f\",\n          \"message\": \"Release highlights:\\n\\n - [themes] Developers can now use the shopify theme metafields pull command to download metafields, which can then be used for more refined code completion.\\n - [apps] All function builds are now optimized with wasm-opt by default. This can be disabled with wasm_opt = false in [extensions.build].\",\n          \"type\": \"info\",\n          \"frequency\": \"once\",\n          \"ownerChannel\": \"develop-team-app-inner-loop\",\n          \"cta\": {\n              \"label\": \"Read the complete release notes\",\n              \"url\": \"https://github.com/Shopify/cli/releases/tag/3.73.0\"\n          },\n          \"title\": \"Release notes for 3.73.0\",\n          \"minVersion\": \"3.73.0\",\n          \"maxVersion\": \"3.73.0\"\n      },\n      {\n        \"id\": \"ac592e17-91e6-4a91-8ce0-7831d92946ca\",\n        \"message\": \"Release highlights:\\n\\n  - [theme] Added `theme profile` command which allows users to get a performance profile for Liquid rendering on a given page\\n  - [theme] Improved storefront password protection checks\\n  - [app] Simplified the localization file size validations\\n  - [app] App info received a facelift and a few display bugs were fixed\",\n        \"type\": \"info\",\n        \"frequency\": \"once\",\n        \"ownerChannel\": \"develop-team-app-inner-loop\",\n        \"cta\": {\n            \"label\": \"Read the complete release notes\",\n            \"url\": \"https://github.com/Shopify/cli/releases/tag/3.74.0\"\n        },\n        \"title\": \"Release notes for 3.74.0\",\n        \"minVersion\": \"3.74.0\",\n        \"maxVersion\": \"3.74.0\"\n      },\n      {\n        \"id\": \"063e4905-ddb8-4b3e-b1dd-8586caf426b9\",\n        \"message\": \"Release highlights:\\n\\n  - [CLI] Replace rainbow bar with moving hill for no-color mode\\n  - [Apps] Save `dev_store_url` under `./shopify`\\n  - [Apps] Enable include_config_on_deploy by default for new apps\\n  - [Themes] Update `shopify theme push -x` documentation (it uploads, doesn't download)\\n  - [Themes] Fix local dev proxy for checkout and accounts/logout\\n  - [Themes] Add support to the theme access app staging\",\n        \"type\": \"info\",\n        \"frequency\": \"once\",\n        \"ownerChannel\": \"develop-team-app-inner-loop\",\n        \"cta\": {\n            \"label\": \"Read the complete release notes\",\n            \"url\": \"https://github.com/Shopify/cli/releases/tag/3.75.0\"\n        },\n        \"title\": \"Release notes for 3.75.0\",\n        \"minVersion\": \"3.75.0\",\n        \"maxVersion\": \"3.75.0\"\n      },\n      {\n        \"id\": \"643b3085-360b-4dab-8fbe-e38a2feef2e8\",\n        \"message\": \"Release highlights:\\n\\n - HTTP proxy support via environment variables\\n  - [app] Fixed the first import in shopify.d.ts to be a relative path\\n - [theme] Fixed Section Rendering API requests containing the same search param name multiple times\\n  - [theme] Fixed an issue in applying the SHOPIFY_FLAG_ENVIRONMENT flag\\n - Other bug fixes and improvements\",\n        \"type\": \"info\",\n        \"frequency\": \"once\",\n        \"ownerChannel\": \"develop-team-app-inner-loop\",\n        \"cta\": {\n            \"label\": \"Read the complete release notes\",\n            \"url\": \"https://github.com/Shopify/cli/releases/tag/3.78.0\"\n        },\n        \"title\": \"Release notes for 3.78.0\",\n        \"minVersion\": \"3.78.0\",\n        \"maxVersion\": \"3.78.0\"\n      },\n      {\n        \"id\": \"3c4c1260-3308-4f28-854a-aa0d7c1c27a7\",\n        \"type\": \"info\",\n        \"title\": \"Release notes for 3.79.0\",\n        \"frequency\": \"once\",\n        \"message\": \"Release highlights:\\n\\n  - Prevent some commands from timing out\\n  - [Apps] Remove Chrome extension dependency for checkout post-purchase extensions\\n  - [Themes] Remove asset upload errors for files that are renamed or deleted\",\n        \"minVersion\": \"3.79.0\",\n        \"maxVersion\": \"3.79.0\",\n        \"ownerChannel\": \"#develop-team-app-inner-loop\",\n        \"cta\": {\n          \"label\": \"Read the complete release notes\",\n          \"url\": \"https://github.com/Shopify/cli/releases/tag/3.79.0\"\n        }\n      },\n      {\n        \"id\":\"ca47c548-064a-4a59-b99c-e2125f79ec4b\",\n        \"type\":\"info\",\n        \"title\":\"Release notes for 3.80.0\",\n        \"frequency\":\"once\",\n        \"message\":\"Release highlights:\\\\n\\\\n  - [Apps] Expose new `--use-localhost` and `--localhost-port` flags for the app dev command\\\\n  - [Themes] Support hot-reloading for {% javascript %} tags\\\\n  - [Themes] Support hot reloading after changes to Liquid {% stylesheet %} tag\\\\n  - [Themes] Resolve hot-reloading issue with compiled assets\\\\n  - [Themes] Increase network timeout for theme API requests to prevent failures during long operations\",\n        \"minVersion\":\"3.80.0\",\n        \"maxVersion\":\"3.80.0\",\n        \"ownerChannel\":\"#develop-team-app-inner-loop\",\n        \"cta\":{\n          \"label\":\"Read the complete release notes\",\n          \"url\":\"https://github.com/Shopify/cli/releases/tag/3.80.0\"\n        }\n      },\n      {\n        \"id\": \"c353adc6-f25a-4570-8efc-7bd9b61779b0\",\n        \"type\": \"info\",\n        \"title\": \"Release notes for 3.81.0\",\n        \"frequency\": \"once\",\n        \"message\": \"Release highlights:\\n\\n  - [Apps] Improve session stability and recover automatically on expiration\\n  - [Themes] Add default environment functionality\\n  - [Themes] Make assets and hot reload events more resilient to Liquid syntax errors\\n  - [Themes] Fix timeout issues\",\n        \"minVersion\": \"3.81.0\",\n        \"maxVersion\": \"3.81.0\",\n        \"ownerChannel\": \"#develop-team-app-inner-loop\",\n        \"cta\": {\n          \"label\": \"Read the complete release notes\",\n          \"url\": \"https://github.com/Shopify/cli/releases/tag/3.81.0\"\n        }\n      },\n      {\n        \"id\": \"d2e37a68-5c7f-4759-9608-a7e81e53e0cb\",\n        \"type\": \"info\",\n        \"title\": \"Release notes for 3.82.0\",\n        \"frequency\": \"once\",\n        \"message\": \"Release highlights:\\n\\n  - [Apps] Authentication is now NOT required for `app build` and `app function build`\\n  - [Themes] Fix bug where `theme dev` doesn't sync images\\n  - [Themes] Added `--path` flag to all theme commands\\n  - [Themes] Fix issues with env var SHOPIFY_FLAG_ENVIRONMENT not working correctly\",\n        \"minVersion\": \"3.82.0\",\n        \"maxVersion\": \"3.82.0\",\n        \"ownerChannel\": \"#develop-team-app-inner-loop\",\n        \"cta\": {\n          \"label\": \"Read the complete release notes\",\n          \"url\": \"https://github.com/Shopify/cli/releases/tag/3.82.0\"\n        }\n      },\n      {\n        \"id\": \"cb0ba18a-0476-4540-bb01-400c445bdb89\",\n        \"type\": \"info\",\n        \"title\": \"Release notes for 3.83.0\",\n        \"frequency\": \"once\",\n        \"message\": \"Release highlights:\\n\\n - [app] Add support for deploy without build\\n - [theme] Add theme duplicate command\\n - [theme] Fix performance issue on shopify theme dev command\\n - [theme] No longer abort theme GraphQL requests on the client side\",\n        \"minVersion\": \"3.83.0\",\n        \"maxVersion\": \"3.83.0\",\n        \"ownerChannel\": \"app-development-app-inner-loop\",\n        \"cta\": {\n          \"label\": \"Read the complete release notes\",\n          \"url\": \"https://github.com/Shopify/cli/releases/tag/3.83.0\"\n        }\n      },\n      {\n        \"id\": \"f3fd509e-0e1e-4491-928a-e9ac3f060486\",\n        \"message\": \"Release highlights:\\n\\n - [app] Adds compatibility for the Next-Gen Dev Platform\\n - [theme] Improve support for multiple environments\\n - [theme] Fix some issues with theme dev\",\n        \"type\": \"info\",\n        \"frequency\": \"once\",\n        \"ownerChannel\": \"app-development-app-inner-loop\",\n        \"cta\": {\n          \"label\": \"Read the complete release notes\",\n          \"url\": \"https://github.com/Shopify/cli/releases/tag/3.84.0\"\n        },\n        \"title\": \"Release notes for 3.84.0\",\n        \"minVersion\": \"3.84.0\",\n        \"maxVersion\": \"3.84.0\"\n      },\n      {\n        \"id\": \"5727cb46-97ad-48bf-95dc-4c317bec09e5\",\n        \"type\": \"info\",\n        \"title\": \"🔜 The Next-gen Dev Platform is coming soon\",\n        \"frequency\": \"once_a_day\",\n        \"message\": \"To keep building and updating after your apps are migrated to the new platform, you’ll need to `deploy` with Shopify CLI version 3.84 or higher.\\n\\nUpgrade your CLI now to stay ready:\\n\\n`npm install -g  @shopify/cli@latest`\",\n        \"cta\": {\n          \"label\": \"Find out what's coming in the Next-gen Dev Platform\",\n          \"url\": \"https://shopify.dev/docs/beta/next-gen-dev-platform\"\n        },\n        \"maxVersion\": \"3.83.3\",\n        \"surface\": \"app\",\n        \"ownerChannel\": \"app-development-app-inner-loop\"\n      },\n      {\n        \"id\": \"37abf594-236e-43b6-ba79-70b9b39834aa\",\n        \"type\": \"info\",\n        \"title\": \"Release notes for 3.85.0\",\n        \"frequency\": \"once\",\n        \"message\": \"Release highlights:\\n\\n  - [Apps] Multi-session support: you can now run shopify auth login to add additional accounts and easily switch between them\\n  - [Theme] Multiple environment support: theme push, pull, share, check, publish, and delete commands can be called with multiple environments; commands use the correct store URL and user-provided flag values override defaults; commands that don't require authentication won't create sessions when run with multiple environments\",\n        \"minVersion\": \"3.85.0\",\n        \"maxVersion\": \"3.85.2\",\n        \"ownerChannel\": \"app-development-app-inner-loop\",\n        \"cta\": {\n          \"label\": \"Read the complete release notes\",\n          \"url\": \"https://github.com/Shopify/cli/releases/tag/3.85.0\"\n        }\n      }\n  ]\n}\n",
+			"timestamp": 1761585460943
+		},
+		"rate-limited-occurrences-send-error-to-bugsnag": {
+			"value": [
+				1761578433565
+			],
+			"timestamp": 1761578433565
+		}
+	}
+}

@@ -1,0 +1,12 @@
+services:
+  shopify-dev:
+    build: .
+    container_name: shopify-dev
+    volumes:
+      - .:/app:Z
+    environment:
+      - HOME=/app
+    command: ["bash"]
+    user: "${HOST_UID}:${HOST_GID}"
+    ports:
+      - "3000:3000"
